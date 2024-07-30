@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todo-app {
+  @apply min-h-screen bg-gray-100 flex items-center justify-center p-4;
+}
+
+.todo-container {
+  @apply bg-white rounded-lg shadow-lg p-6 w-full max-w-md;
+}
+
+.todo-title {
+  @apply text-2xl font-bold text-center mb-6 text-gray-800;
+}
+
+.todo-input-container {
+  @apply flex mb-4;
+}
+
+.todo-input {
+  @apply flex-grow mr-2 border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+}
+
+.todo-add-button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200 flex items-center;
+}
+
+.todo-list {
+  @apply space-y-2;
+}
+
+.todo-item {
+  @apply flex items-center justify-between p-3 bg-gray-50 rounded-lg transition duration-200 hover:bg-gray-100;
+}
+
+.todo-item.completed .todo-text {
+  @apply line-through text-gray-500;
+}
+
+.todo-toggle-button {
+  @apply text-gray-400 hover:text-green-500 transition duration-200;
+}
+
+.todo-item.completed .todo-toggle-button {
+  @apply text-green-500;
+}
+
+.todo-text {
+  @apply flex-grow mx-3 text-gray-800;
+}
+
+.todo-delete-button {
+  @apply text-gray-400 hover:text-red-500 transition duration-200;
+}

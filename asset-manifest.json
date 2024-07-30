@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Interactive-Todo-List-v1.0/static/css/main.43344dd0.css",
+    "main.js": "/Interactive-Todo-List-v1.0/static/js/main.d34b42f3.js",
+    "index.html": "/Interactive-Todo-List-v1.0/index.html",
+    "main.43344dd0.css.map": "/Interactive-Todo-List-v1.0/static/css/main.43344dd0.css.map",
+    "main.d34b42f3.js.map": "/Interactive-Todo-List-v1.0/static/js/main.d34b42f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43344dd0.css",
+    "static/js/main.d34b42f3.js"
+  ]
+}
